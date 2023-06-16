@@ -1,0 +1,140 @@
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+
+@font-face {
+	font-family: 'FiraGOmedium';
+	src: url('/assets/front/assets/fonts/FiraGO-Medium.eot');
+	src: local('â˜º'), url('/assets/front/assets/fonts/FiraGO-Medium.woff') format('woff'), url('/assets/front/assets/fonts/FiraGO-Medium.ttf') format('truetype'), url('/assets/front/assets/fonts/FiraGO-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+    .flex-center{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+header{
+    width:100%;
+    height:110px;
+    background-color:#eee8e8cc;
+    position:fixed;
+    display:flex;
+    
+}
+
+.left-conteiner img{
+    width:111px;
+    height:48px;
+    margin:30px 20px;
+}
+
+.right-conte{
+    width:75px;
+    height:30px;
+    border:1px solid rgb(202, 201, 201);
+    border-radius:15px;
+    background-color:#ccc;
+    box-shadow:-1px -1px -10px black;
+ 
+    
+}
+.right-heder{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:20px;
+    margin-right:2%;
+}
+
+.fa-sun ,.fa-moon{
+    font-size:22px;
+    color:rgb(76, 72, 72);
+    cursor:pointer;
+    position:relative;
+    letter-spacing:0.3em;
+
+
+}
+
+
+
+.check1{
+    display:none;
+}
+
+.avtoriz{
+    padding:5px;
+    width:106px;
+    height:40px;
+    border:1px solid beige;
+    box-shadow:10px ;
+    border-radius:10px;
+    font-size:18px;
+    background-color:rgb(238, 238, 235);
+    cursor:pointer;
+    color:black;
+    text-align-last:center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:1px solid rgba(177, 177, 163, 0.822);
+}
+
+
+.registr{
+    width:156.25px;
+    height:39px;
+    color:blue;
+    font-size:18px;
+    border:none;
+    background-color:#007bff31 ;
+    border-radius:10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor:pointer;
+    text-align:center;
+    padding:5px;
+}
+
+.sear{
+width:900px;
+height:80px;
+margin-top:7%;
+margin-left:20%;
+position:fixed;
+border-radius:20px;
+background-color:white;
+display:flex;
+justify-content:flex-start;
+align-items:center;
+
+}
+
+.fa-magnifying-glass{
+    font-size:25px;
+    color:rgba(177, 177, 163, 0.822);
+    margin-left:5px;
+}
+
+.hederinp{
+    width:600px;
+    border:none;
+    outline:none;
+    margin-left:20px;
+    background-color:white;
+
+}
+
+.hederinp, ::placeholder{
+    font-size:18px;
+    letter-spacing:0.1em;
+    
+}
+.dropd{
+    border-left:1px solid black;
+}
